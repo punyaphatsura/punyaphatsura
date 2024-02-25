@@ -31,7 +31,7 @@
 
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/profile.php?id=100002700198851) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/phat_punyapeem)
 
-![](https://komarev.com/ghpvc/?username=punyaphatsura&style=for-the-badge&abbreviated=true)
+![](https://komarev.com/ghpvc/?username=punyaphatsura&style=for-the-badge&abbreviated=true&color=lightgrey)
 
 <!-- <img src='https://randommeme-five.vercel.app/' style="height: 400px;"/> -->
 
