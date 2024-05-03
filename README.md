@@ -2,7 +2,7 @@
 
 # About me
 
-- 🏫 Computer Engineer student, CU105
+- 🏫 CU105 CP48
 - 🌱 Front-End Developer
 - 🔎 Currently learning UX/UI design and full-stack development
 
