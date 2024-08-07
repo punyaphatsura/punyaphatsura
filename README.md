@@ -21,8 +21,7 @@ Software developer and UX/UI designer
 <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg" width="36" height="36" alt="Firebase" /></a>
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
 <a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs/a5d20ec54d76e9ff7d4725cc02c99f0dd11081b9/apps/bestofjs-nextjs/public/logos/yarn.svg" width="36" height="36" alt="yarn" /></a>
-<a href="https://reactnative.dev/" target="_blank" rel="noreferrer"><img src="
-https://cdn.worldvectorlogo.com/logos/react-native-1.svg" width="36" height="36" alt="Docker" /></a>
+<a href="https://reactnative.dev/" target="_blank" rel="noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" width="36" height="36" alt="Docker" /></a>
 <a href="https://elysiajs.com/" target="_blank" rel="noreferrer"><img src="https://elysiajs.com/assets/elysia.svg" width="36" height="36" alt="elysia" /></a>
 <a href="https://docs.expo.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs/a5d20ec54d76e9ff7d4725cc02c99f0dd11081b9/apps/bestofjs-nextjs/public/logos/expo.svg" width="36" height="36" alt="expo" /></a>
 <a href="https://bun.sh/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs/a5d20ec54d76e9ff7d4725cc02c99f0dd11081b9/apps/bestofjs-nextjs/public/logos/bun.svg" width="36" height="36" alt="bun" /></a>
