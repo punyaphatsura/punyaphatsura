@@ -2,10 +2,10 @@
 
 Software engineer and UX/UI designer
 
-🏫 Computer Engineer student, CU105
+**🏫 Computer Engineer student, CU105**
 
-🔍 Fullstack/Software Engineer Seeking Opportunities
-- Passionate about building innovative solutions that elevate user experiences, with expertise in full-stack development, UX/UI design, and creative problem-solving.
+**🔍 Fullstack/Software Engineer Seeking Opportunities**
+- Passionate about building innovative solutions that elevate user experiences, with expertise in full-stack development, UX/UI design, and creative problem-solving. Eager to learn new technologies, approaches, and skills to drive continuous growth.
 
 ## Skills
 
