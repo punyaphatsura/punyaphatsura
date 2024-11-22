@@ -1,9 +1,11 @@
 # Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Punyaphat Surakiatkamjorn
 
-Software developer and UX/UI designer
+Software engineer and UX/UI designer
 
-- 🏫 Computer Engineer student, CU105
-- 🧠  I'm learning Elysia Bun (for Backend development) and exploring various AI topics
+🏫 Computer Engineer student, CU105
+
+🔍 Fullstack/Software Engineer Seeking Opportunities
+- Passionate about building innovative solutions that elevate user experiences, with expertise in full-stack development, UX/UI design, and creative problem-solving.
 
 ## Skills
 
@@ -18,11 +20,9 @@ Software developer and UX/UI designer
 <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="36" height="36" alt="MongoDB" /></a>
 <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg" width="36" height="36" alt="Firebase" /></a>
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
-<a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs/a5d20ec54d76e9ff7d4725cc02c99f0dd11081b9/apps/bestofjs-nextjs/public/logos/yarn.svg" width="36" height="36" alt="yarn" /></a>
 <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" width="36" height="36" alt="Docker" /></a>
 <a href="https://elysiajs.com/" target="_blank" rel="noreferrer"><img src="https://elysiajs.com/assets/elysia.svg" width="36" height="36" alt="elysia" /></a>
-<a href="https://docs.expo.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs/a5d20ec54d76e9ff7d4725cc02c99f0dd11081b9/apps/bestofjs-nextjs/public/logos/expo.svg" width="36" height="36" alt="expo" /></a>
-<a href="https://bun.sh/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs/a5d20ec54d76e9ff7d4725cc02c99f0dd11081b9/apps/bestofjs-nextjs/public/logos/bun.svg" width="36" height="36" alt="bun" /></a>
+<a href="https://docs.expo.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs/a5d20ec54d76e9ff7d4725cc02c99f0dd11081b9/apps/bestofjs-nextjs/public/logos/expo.dark.svg" width="36" height="36" alt="expo" /></a><a href="https://shadcn.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs/refs/heads/develop/apps/bestofjs-nextjs/public/logos/shadcnui.dark.svg" width="36" height="36" alt="ShadCN" /></a>
 </p>
 
 ### Have Experience
