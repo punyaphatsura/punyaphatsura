@@ -1,11 +1,14 @@
 # Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Punyaphat Surakiatkamjorn
 
-Software engineer and UX/UI designer
+Full-stack engineer and UX/UI designer
 
 **🏫 Computer Engineer student, CU105**
 
-**🔍 Fullstack/Software Engineer Seeking Opportunities**
+**🔍 Full-stack/Software Engineer Seeking Opportunities**
+
 - Passionate about building innovative solutions that elevate user experiences, with expertise in full-stack development, UX/UI design, and creative problem-solving. Eager to learn new technologies, approaches, and skills to drive continuous growth.
+
+🌐 **Check out my portfolio at [punyaphat-portfolio.vercel.app](https://punyaphat-portfolio.vercel.app/)**
 
 ## Skills
 
@@ -77,4 +80,4 @@ Software engineer and UX/UI designer
 </a>
 </p>
 
-✉️  You can contact me at [punyaphat.sura@gmail.com](mailto:punyaphat.sura@gmail.com)
+### ✉️  You can contact me at [punyaphat.sura@gmail.com](mailto:punyaphat.sura@gmail.com)
