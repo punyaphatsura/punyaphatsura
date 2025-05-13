@@ -1,12 +1,10 @@
 # Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Punyaphat Surakiatkamjorn
 
-Full-stack engineer and UX/UI designer
+Software engineer
 
 **🏫 Computer Engineer student, CU105**
 
-**🔍 Full-stack/Software Engineer Seeking Opportunities**
-
-- Passionate about building innovative solutions that elevate user experiences, with expertise in full-stack development, UX/UI design, and creative problem-solving. Eager to learn new technologies, approaches, and skills to drive continuous growth.
+- Passionate about building innovative solutions that elevate user experiences, with expertise in Software development, UX/UI design, and creative problem-solving. Eager to learn new technologies, approaches, and skills to drive continuous growth.
 
 🌐 **Check out my portfolio at [punyaphat-portfolio.vercel.app](https://punyaphat-portfolio.vercel.app/)**
 
@@ -25,7 +23,7 @@ Full-stack engineer and UX/UI designer
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
 <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" width="36" height="36" alt="Docker" /></a>
 <a href="https://elysiajs.com/" target="_blank" rel="noreferrer"><img src="https://elysiajs.com/assets/elysia.svg" width="36" height="36" alt="elysia" /></a>
-<a href="https://docs.expo.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs/a5d20ec54d76e9ff7d4725cc02c99f0dd11081b9/apps/bestofjs-nextjs/public/logos/expo.dark.svg" width="36" height="36" alt="expo" /></a><a href="https://shadcn.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs/refs/heads/develop/apps/bestofjs-nextjs/public/logos/shadcnui.dark.svg" width="36" height="36" alt="ShadCN" /></a>
+<a href="https://docs.expo.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs/a5d20ec54d76e9ff7d4725cc02c99f0dd11081b9/apps/bestofjs-nextjs/public/logos/expo.dark.svg" width="36" height="36" alt="expo" /></a><a href="https://ui.shadcn.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs/refs/heads/develop/apps/web/public/logos/shadcnui.dark.svg" width="36" height="36" alt="ShadCN" /></a>
 </p>
 
 ### Have Experience
