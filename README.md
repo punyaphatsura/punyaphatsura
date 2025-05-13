@@ -23,7 +23,8 @@ Software engineer
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
 <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" width="36" height="36" alt="Docker" /></a>
 <a href="https://elysiajs.com/" target="_blank" rel="noreferrer"><img src="https://elysiajs.com/assets/elysia.svg" width="36" height="36" alt="elysia" /></a>
-<a href="https://docs.expo.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs/a5d20ec54d76e9ff7d4725cc02c99f0dd11081b9/apps/bestofjs-nextjs/public/logos/expo.dark.svg" width="36" height="36" alt="expo" /></a><a href="https://ui.shadcn.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs/refs/heads/develop/apps/web/public/logos/shadcnui.dark.svg" width="36" height="36" alt="ShadCN" /></a>
+<a href="https://docs.expo.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs/a5d20ec54d76e9ff7d4725cc02c99f0dd11081b9/apps/bestofjs-nextjs/public/logos/expo.dark.svg" width="36" height="36" alt="expo" /></a>
+<a href="https://ui.shadcn.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs/refs/heads/develop/apps/web/public/logos/shadcnui.dark.svg" width="36" height="36" alt="ShadCN" /></a>
 </p>
 
 ### Have Experience
@@ -38,6 +39,7 @@ Software engineer
 <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" width="36" height="36" alt="PostgreSQL" /></a>
 <a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg" width="36" height="36" alt="Docker" /></a>
 <a href="https://dotnet.microsoft.com/en-us/" target="_blank" rel="noreferrer"><img src="https://icon.icepanel.io/Technology/svg/.NET.svg" width="36" height="36" alt=".NET" /></a>
+<a href="https://www.swift.org/" target="_blank" rel="noreferrer"><img src="https://developer.apple.com/swift/images/swift-logo.svg" width="36" height="36" alt="swift" /></a>
 
 </p>
 
