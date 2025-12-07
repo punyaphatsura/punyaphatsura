@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punyaphat Surakiatkamjorn - Resume</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.4;
+            color: #000;
+            margin: 0;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .contact-info {
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .summary {
+            font-style: italic;
+            margin: 0 auto;
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        hr {
+            border: 0;
+            border-top: 2px solid #000;
+            margin: 20px 0 10px 0;
+        }
+
+        h2 {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0 0 10px 0;
+            text-transform: uppercase;
+        }
+
+        /* Skills */
+        .skill-row {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .label {
+            font-weight: bold;
+        }
+
+        /* Experience & Education Common Rows */
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .header-row {
+            font-weight: bold;
+            font-size: 14px;
+            margin-top: 15px;
+        }
+
+        .sub-row {
+            font-style: italic;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .company,
+        .university {
+            text-align: left;
+        }
+
+        .duration,
+        .date {
+            font-weight: normal;
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        /* Details */
+        .details,
+        .notes {
+            font-size: 14px;
+        }
+
+        .project-desc {
+            margin-bottom: 5px;
+        }
+
+        .project-type {
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        ul {
+            margin: 5px 0 10px 20px;
+            padding: 0;
+            list-style-type: disc;
+        }
+
+        ul li {
+            margin-bottom: 2px;
+        }
+
+        ul ul {
+            list-style-type: circle;
+            margin-top: 2px;
+        }
+
+        /* Strengths */
+        .strength-item {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .strength-title {
+            font-weight: bold;
+        }
+
+        /* Print optimizations */
+        @media print {
+            body {
+                padding: 0;
+                margin: 0.5in;
+            }
+
+            .container {
+                width: 100%;
+                max-width: none;
+            }
+
+            .duration a {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Punyaphat Surakiatkamjorn</h1>
+            <p class="title">Software Engineer</p>
+            <p class="contact-info">
+                Bangpli, Samut Prakarn | punyaphat.sura@gmail.com | (+66) 65-730-7657<br>
+            </p>
+            <p class="summary">
+                Versatile Software Engineer with a focus on Front-End, skilled in Next.js, React, and TypeScript, with a
+                solid background in web development. Passionate about learning new technologies and continuously
+                improving. Seeking a dynamic role to apply creative design and technical proficiency in contributing to
+                innovative projects, and eager to enhance digital experiences as part of a forward-thinking team.
+            </p>
+        </header>
+
+        <section class="skills">
+            <hr>
+            <h2>Skills</h2>
+            <div class="skill-row"><span class="label">Programming:</span> React, JavaScript, TypeScript, NextJS, VueJS,
+                ElysiaJS, TailwindCSS, React Native, Python</div>
+            <div class="skill-row"><span class="label">Others:</span> Git, Jira, Postman, Firebase, MongoDB, PosgreSQL
+            </div>
+            <div class="skill-row"><span class="label">Language:</span> Thai (Native), English (Intermediate)</div>
+        </section>
+
+        <section class="experience">
+            <hr>
+            <h2>Experiences</h2>
+
+            <div class="job">
+                <div class="row header-row">
+                    <div class="company">Top Gun Co., Ltd. - Part time/Full time</div>
+                    <div class="duration">JAN 2025 - Present</div>
+                </div>
+                <div class="row sub-row">
+                    <div class="role">Software Engineer</div>
+                </div>
+                <div class="details">
+                    <ul>
+                        <li>Focused on Next.js and mobile apps with React Native, working within an NX monorepo. I
+                            optimize performance using SSR, React Query, and seamless UX practices, and implement
+                            Amplitude for event tracking and analytics.</li>
+                        <li>While my role is primarily frontend, I have done a small amount of backend work, including
+                            API contract design, minor CI/CD configuration updates, and light contributions in NestJS
+                            and Go.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="row header-row">
+                    <div class="company">Playtorium - Internship</div>
+                    <div class="duration">Jun 2024 - Jul 2024</div>
+                </div>
+                <div class="row sub-row">
+                    <div class="role">Software Developer</div>
+                </div>
+                <div class="details">
+                    <ul>
+                        <li>Developed web applications using Vue.js and .NET, while managing CI/CD pipelines with
+                            GitLab.</li>
+                        <li>Implemented backend transactions, rollbacks, and optimized data management for performance
+                            in an agile team environment.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="row header-row">
+                    <div class="company">AZAI - Freelance</div>
+                    <div class="duration">Dec 2023 - May 2024</div>
+                </div>
+                <div class="row sub-row">
+                    <div class="role">Software Engineer</div>
+                </div>
+                <div class="details">
+                    <ul>
+                        <li>Designed and developed a cross-platform real estate app using React Native, Expo, and
+                            TailwindCSS, including real-time chat with Socket.IO.</li>
+                        <li>Built a slip submission and PromptPay QR code generator website using Next.js and
+                            TailwindCSS.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="row header-row">
+                    <div class="company">SOpet - Freelance</div>
+                    <div class="duration">Jan 2023 - Nov 2024</div>
+                </div>
+                <div class="row sub-row">
+                    <div class="role">Software Engineer & UX/UI Designer</div>
+                </div>
+                <div class="details">
+                    <ul>
+                        <li>Utilized React Native and TypeScript for the development of a real estate management tool
+                            for landlords.</li>
+                        <li>Focused primarily on the front-end, enhancing the application's user interface and
+                            experience.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <hr>
+            <h2>Projects</h2>
+
+            <div class="job">
+                <div class="row header-row">
+                    <div class="company">BROKE app <span class="project-type">(Side Project)</span></div>
+                </div>
+                <div class="details">
+                    <div class="project-desc">
+                        <ul>
+                            <li>“Bank slip Recorder, Organizer & Knowledge Extractor”, iOS app that
+                                extracts expense data from Thai bank slips using Gemini’s slip-upload API and
+                                automatically
+                                organizes transactions, inspired by Meow Jot.</li>
+                            <li>Built with SwiftUI and CoreData, providing a clean UX for recording expenses and
+                                preparing
+                                future analytics features.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="row header-row">
+                    <div class="company">Capstone Project — KhongKhun TTS <span class="project-type">(Final
+                            Project)</span></div>
+                </div>
+                <div class="details">
+                    <div class="project-desc">
+                        <ul>
+                            <li>Developed a multilingual Thai–English dubbing system using LLM translation
+                                and zero-shot TTS to preserve speaker identity. My role focused on building internal
+                                tools,
+                                including data validators, demo sites, and the model weight comparison platform, to
+                                streamline
+                                model comparison and improve the team’s research workflow.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="row header-row">
+                    <div class="company">Portfolio Web <span class="project-type">(Side Project)</span></div>
+                </div>
+                <div class="details">
+                    <div class="project-desc">
+                        <ul>
+                            <li>Built with Next.js, TailwindCSS, Framer Motion, and Shadcn. This showcases
+                                my skills, projects, and experiences.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="row header-row">
+                    <div class="company">Jarn nai <span class="project-type">(Side Project)</span></div>
+                </div>
+                <div class="details">
+                    <div class="project-desc">
+                        <ul>
+                            <li>Built a web app with SolidJS to provide clear and easy-to-find instructor
+                                abbreviations for the Computer Engineering Department. This project solved a common
+                                problem for
+                                students while giving me experience with a fast and modern frontend framework.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="education">
+            <hr>
+            <h2>Education</h2>
+
+            <div class="edu-item">
+                <div class="row header-row">
+                    <div class="university">Chulalongkorn University</div>
+                    <div class="duration">GPAX 3.73</div>
+                </div>
+                <div class="row sub-row">
+                    <div class="degree">Bachelor of Computer Engineering (1st Class Honours)</div>
+                    <div class="date">AUG 2021 - JUNE 2025</div>
+                </div>
+                <div class="notes">Relevant Coursework: Data Structure, Algorithm Design, Software Engineer, Database
+                    System, Data science, Software Architecture, Computer Security, OOP, etc.</div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
