@@ -11,68 +11,105 @@
             line-height: 1.4;
             color: #000;
             margin: 0;
-            padding: 20px;
             background-color: #fff;
         }
 
         .container {
-            max-width: 800px;
             margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
         }
 
         header {
             text-align: center;
-            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .header-top {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
         }
 
         h1 {
             font-size: 24px;
             font-weight: bold;
-            margin-bottom: 5px;
+            margin: 0;
         }
 
         .title {
             font-size: 16px;
             font-weight: bold;
-            margin-bottom: 5px;
+            margin: 0;
         }
 
         .contact-info {
-            margin-bottom: 10px;
             font-size: 14px;
+            margin: 0;
         }
 
         .summary {
             font-style: italic;
-            margin: 0 auto;
             font-size: 14px;
             text-align: justify;
+            margin: 0;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .section-header {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
         }
 
         hr {
             border: 0;
             border-top: 2px solid #000;
-            margin: 20px 0 10px 0;
+            margin: 0;
         }
 
         h2 {
             font-size: 16px;
             font-weight: bold;
-            margin: 0 0 10px 0;
+            margin: 0;
             text-transform: uppercase;
         }
 
-        /* Skills */
+        .content-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .skills-group {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
         .skill-row {
             font-size: 14px;
-            margin-bottom: 5px;
         }
 
         .label {
             font-weight: bold;
         }
 
-        /* Experience & Education Common Rows */
+        .job,
+        .edu-item {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
         .row {
             display: flex;
             justify-content: space-between;
@@ -82,13 +119,11 @@
         .header-row {
             font-weight: bold;
             font-size: 14px;
-            margin-top: 15px;
         }
 
         .sub-row {
             font-style: italic;
             font-size: 14px;
-            margin-bottom: 5px;
         }
 
         .company,
@@ -103,15 +138,12 @@
             white-space: nowrap;
         }
 
-        /* Details */
         .details,
         .notes {
             font-size: 14px;
         }
 
-        .project-desc {
-            margin-bottom: 5px;
-        }
+        .project-desc {}
 
         .project-type {
             font-weight: normal;
@@ -119,35 +151,44 @@
         }
 
         ul {
-            margin: 5px 0 10px 20px;
+            margin: 0 0 0 20px;
             padding: 0;
             list-style-type: disc;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
         }
 
         ul li {
-            margin-bottom: 2px;
+            margin: 0;
         }
 
         ul ul {
             list-style-type: circle;
-            margin-top: 2px;
         }
 
-        /* Strengths */
         .strength-item {
             font-size: 14px;
-            margin-bottom: 5px;
         }
 
         .strength-title {
             font-weight: bold;
         }
 
-        /* Print optimizations */
+        .highlight-tech {
+            background-color: #fef08a;
+            /* Soft Yellow */
+            font-weight: 600;
+        }
+
         @media print {
+            .highlight-tech {
+                background-color: transparent !important;
+            }
+
             body {
                 padding: 0;
-                margin: 0.5in;
+                margin: 0.2in;
             }
 
             .container {
@@ -166,196 +207,218 @@
 <body>
     <div class="container">
         <header>
-            <h1>Punyaphat Surakiatkamjorn</h1>
-            <p class="title">Software Engineer</p>
-            <p class="contact-info">
-                Bangpli, Samut Prakarn | punyaphat.sura@gmail.com | (+66) 65-730-7657<br>
-            </p>
+            <div class="header-top">
+                <h1>Punyaphat Surakiatkamjorn</h1>
+                <p class="contact-info">
+                    Bangpli, Samut Prakarn | punyaphat.sura@gmail.com | 065-730-7657<br>
+                    <a href="https://github.com/punyaphatsura/punyaphatsura"
+                        style="text-decoration: none; color: inherit;">github.com/punyaphatsura</a> |
+                    <a href="https://linkedin.com/in/punyaphat-surakiatkamjorn-91a1842a2"
+                        style="text-decoration: none; color: inherit;">linkedin.com/in/punyaphat-surakiatkamjorn</a>
+                </p>
+            </div>
             <p class="summary">
-                Versatile Software Engineer with a focus on Front-End, skilled in Next.js, React, and TypeScript, with a
-                solid background in web development. Passionate about learning new technologies and continuously
-                improving. Seeking a dynamic role to apply creative design and technical proficiency in contributing to
-                innovative projects, and eager to enhance digital experiences as part of a forward-thinking team.
+                Results-driven Software Engineer with a passion for building user-centric applications that deliver
+                real-world impact. Specialized in the <span class="highlight-tech">Next.js</span> ecosystem, with
+                experience in optimizing complex systems.
+                I thrive on creating seamless digital experiences and am always eager to learn new technologies to solve
+                challenges and improve digital products.
             </p>
         </header>
 
-        <section class="skills">
-            <hr>
-            <h2>Skills</h2>
-            <div class="skill-row"><span class="label">Programming:</span> React, JavaScript, TypeScript, NextJS, VueJS,
-                ElysiaJS, TailwindCSS, React Native, Python</div>
-            <div class="skill-row"><span class="label">Others:</span> Git, Jira, Postman, Firebase, MongoDB, PosgreSQL
+        <section class="education">
+            <div class="section-header">
+                <hr>
+                <h2>Education</h2>
             </div>
-            <div class="skill-row"><span class="label">Language:</span> Thai (Native), English (Intermediate)</div>
+
+            <div class="content-group">
+                <div class="edu-item">
+                    <div class="row header-row">
+                        <div class="university">Chulalongkorn University</div>
+                        <div class="duration">GPAX 3.73</div>
+                    </div>
+                    <div class="row sub-row">
+                        <div class="degree">Bachelor of Computer Engineering (1st Class Honours)</div>
+                        <div class="date">AUG 2021 - JUNE 2025</div>
+                    </div>
+                    <div class="notes">Relevant Coursework: Data Structure, Algorithm Design, Software Engineer,
+                        Database
+                        System, Data science, Software Architecture, Computer Security, OOP, etc.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="section-header">
+                <hr>
+                <h2>Skills</h2>
+            </div>
+            <div class="skills-group">
+                <div class="skill-row"><span class="label">Programming:</span> <span
+                        class="highlight-tech">React</span>, JavaScript, <span class="highlight-tech">TypeScript</span>,
+                    <span class="highlight-tech">Next.js</span>,
+                    VueJS,
+                    ElysiaJS, <span class="highlight-tech">TailwindCSS</span>, <span class="highlight-tech">React
+                        Native</span>, <span class="highlight-tech">Python</span>
+                </div>
+                <div class="skill-row"><span class="label">Others:</span> Git, Jira, Postman, Firebase, MongoDB,
+                    <span class="highlight-tech">PostgreSQL</span>
+                </div>
+                <div class="skill-row"><span class="label">Language:</span> Thai (Native), English (Intermediate)</div>
+            </div>
         </section>
 
         <section class="experience">
-            <hr>
-            <h2>Experiences</h2>
-
-            <div class="job">
-                <div class="row header-row">
-                    <div class="company">Top Gun Co., Ltd. - Part time/Full time</div>
-                    <div class="duration">JAN 2025 - Present</div>
-                </div>
-                <div class="row sub-row">
-                    <div class="role">Software Engineer</div>
-                </div>
-                <div class="details">
-                    <ul>
-                        <li>Focused on Next.js and mobile apps with React Native, working within an NX monorepo. I
-                            optimize performance using SSR, React Query, and seamless UX practices, and implement
-                            Amplitude for event tracking and analytics.</li>
-                        <li>While my role is primarily frontend, I have done a small amount of backend work, including
-                            API contract design, minor CI/CD configuration updates, and light contributions in NestJS
-                            and Go.</li>
-                    </ul>
-                </div>
+            <div class="section-header">
+                <hr>
+                <h2>Experiences</h2>
             </div>
 
-            <div class="job">
-                <div class="row header-row">
-                    <div class="company">Playtorium - Internship</div>
-                    <div class="duration">Jun 2024 - Jul 2024</div>
+            <div class="content-group">
+                <div class="job">
+                    <div class="row header-row">
+                        <div class="company">Top Gun Co., Ltd. - Part time/Full time</div>
+                        <div class="duration">JAN 2025 - Present</div>
+                    </div>
+                    <div class="row sub-row">
+                        <div class="role">Software Engineer</div>
+                    </div>
+                    <div class="details">
+                        <ul>
+                            <li>Leveraged <span class="highlight-tech">NX Next.js</span> to implement an Anti-Corruption
+                                Layer with <span class="highlight-tech">Zod</span> and ViewModel
+                                transformations; established a strict server-state separation strategy using <span
+                                    class="highlight-tech">TanStack
+                                    Query</span>
+                                while developing internal shared packages for Design Systems and API contracts.</li>
+                            <li>Achieved instantaneous page loads for data-intensive views by architecting a dual-layer
+                                caching strategy and optimized static pages using Lighthouse as a primary performance
+                                benchmark.</li>
+                            <li>Developed a Puppeteer-based backend service within an <span class="highlight-tech">NX
+                                    NestJS</span> environment to offload
+                                complex, personalized image generation from the client, optimizing resource utilization
+                                for
+                                high-quality assets.</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="row sub-row">
-                    <div class="role">Software Developer</div>
-                </div>
-                <div class="details">
-                    <ul>
-                        <li>Developed web applications using Vue.js and .NET, while managing CI/CD pipelines with
-                            GitLab.</li>
-                        <li>Implemented backend transactions, rollbacks, and optimized data management for performance
-                            in an agile team environment.</li>
-                    </ul>
-                </div>
-            </div>
 
-            <div class="job">
-                <div class="row header-row">
-                    <div class="company">AZAI - Freelance</div>
-                    <div class="duration">Dec 2023 - May 2024</div>
+                <div class="job">
+                    <div class="row header-row">
+                        <div class="company">Playtorium - Internship</div>
+                        <div class="duration">Jun 2024 - Jul 2024</div>
+                    </div>
+                    <div class="row sub-row">
+                        <div class="role">Software Developer</div>
+                    </div>
+                    <div class="details">
+                        <ul>
+                            <li>Developed web applications using <span class="highlight-tech">Vue.js</span> and <span
+                                    class="highlight-tech">.NET</span>, while managing CI/CD pipelines with
+                                <span class="highlight-tech">GitLab</span>.
+                            </li>
+                            <li>Implemented backend transactions, rollbacks, and optimized data management for
+                                performance
+                                in an agile team environment.</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="row sub-row">
-                    <div class="role">Software Engineer</div>
-                </div>
-                <div class="details">
-                    <ul>
-                        <li>Designed and developed a cross-platform real estate app using React Native, Expo, and
-                            TailwindCSS, including real-time chat with Socket.IO.</li>
-                        <li>Built a slip submission and PromptPay QR code generator website using Next.js and
-                            TailwindCSS.</li>
-                    </ul>
-                </div>
-            </div>
 
-            <div class="job">
-                <div class="row header-row">
-                    <div class="company">SOpet - Freelance</div>
-                    <div class="duration">Jan 2023 - Nov 2024</div>
-                </div>
-                <div class="row sub-row">
-                    <div class="role">Software Engineer & UX/UI Designer</div>
-                </div>
-                <div class="details">
-                    <ul>
-                        <li>Utilized React Native and TypeScript for the development of a real estate management tool
-                            for landlords.</li>
-                        <li>Focused primarily on the front-end, enhancing the application's user interface and
-                            experience.</li>
-                    </ul>
+                <div class="job">
+                    <div class="row header-row">
+                        <div class="company">Freelance Software Engineer</div>
+                        <div class="duration">Jan 2023 - Nov 2024</div>
+                    </div>
+                    <div class="row sub-row">
+                        <div class="role">Freelance</div>
+                    </div>
+                    <div class="details">
+                        <ul>
+                            <li>Developed mobile applications for property management and real estate listings using
+                                <span class="highlight-tech">React
+                                    Native</span>, <span class="highlight-tech">Expo</span>, <span
+                                    class="highlight-tech">TypeScript</span>, and <span
+                                    class="highlight-tech">TailwindCSS</span>; implemented real-time chat via Socket.IO
+                                and
+                                built a web-based financial tool for bank slip submission and PromptPay QR generation
+                                using
+                                <span class="highlight-tech">Next.js</span>.
+                            </li>
+                            <li>Designed and implemented a chatbot-integrated website using <span
+                                    class="highlight-tech">Next.js</span> and <span
+                                    class="highlight-tech">LangChain</span>,
+                                focusing
+                                on delivering an intuitive user interface and sophisticated AI interactions.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="projects">
-            <hr>
-            <h2>Projects</h2>
-
-            <div class="job">
-                <div class="row header-row">
-                    <div class="company">BROKE app <span class="project-type">(Side Project)</span></div>
-                </div>
-                <div class="details">
-                    <div class="project-desc">
-                        <ul>
-                            <li>“Bank slip Recorder, Organizer & Knowledge Extractor”, iOS app that
-                                extracts expense data from Thai bank slips using Gemini’s slip-upload API and
-                                automatically
-                                organizes transactions, inspired by Meow Jot.</li>
-                            <li>Built with SwiftUI and CoreData, providing a clean UX for recording expenses and
-                                preparing
-                                future analytics features.</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="section-header">
+                <hr>
+                <h2>Projects</h2>
             </div>
 
-            <div class="job">
-                <div class="row header-row">
-                    <div class="company">Capstone Project — KhongKhun TTS <span class="project-type">(Final
-                            Project)</span></div>
-                </div>
-                <div class="details">
-                    <div class="project-desc">
-                        <ul>
-                            <li>Developed a multilingual Thai–English dubbing system using LLM translation
-                                and zero-shot TTS to preserve speaker identity. My role focused on building internal
-                                tools,
-                                including data validators, demo sites, and the model weight comparison platform, to
-                                streamline
-                                model comparison and improve the team’s research workflow.</li>
-                        </ul>
+            <div class="content-group">
+                <div class="job">
+                    <div class="row header-row">
+                        <div class="company">BROKE app <span class="project-type">(Side Project)</span></div>
+                    </div>
+                    <div class="details">
+                        <div class="project-desc">
+                            <ul>
+                                <li>“Bank slip Recorder, Organizer & Knowledge Extractor”, iOS app that
+                                    extracts expense data from Thai bank slips using <span
+                                        class="highlight-tech">Gemini’s slip-upload API</span> and
+                                    automatically
+                                    organizes transactions, inspired by Meow Jot.</li>
+                                <li>Built with <span class="highlight-tech">SwiftUI</span> and <span
+                                        class="highlight-tech">CoreData</span>, providing a clean UX for recording
+                                    expenses and
+                                    preparing
+                                    future analytics features.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="job">
-                <div class="row header-row">
-                    <div class="company">Portfolio Web <span class="project-type">(Side Project)</span></div>
-                </div>
-                <div class="details">
-                    <div class="project-desc">
-                        <ul>
-                            <li>Built with Next.js, TailwindCSS, Framer Motion, and Shadcn. This showcases
-                                my skills, projects, and experiences.</li>
-                        </ul>
+                <div class="job">
+                    <div class="row header-row">
+                        <div class="company">Capstone Project — KhongKhun TTS <span class="project-type">(Final
+                                Project)</span></div>
+                    </div>
+                    <div class="details">
+                        <div class="project-desc">
+                            <ul>
+                                <li>Developed a multilingual Thai–English dubbing system using <span
+                                        class="highlight-tech">LLM translation</span>
+                                    and <span class="highlight-tech">zero-shot TTS</span> to preserve speaker identity.
+                                    My role focused on building internal
+                                    tools,
+                                    including data validators, demo sites, and the model weight comparison platform, to
+                                    streamline
+                                    model comparison and improve the team’s research workflow.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="job">
-                <div class="row header-row">
-                    <div class="company">Jarn nai <span class="project-type">(Side Project)</span></div>
-                </div>
-                <div class="details">
-                    <div class="project-desc">
-                        <ul>
-                            <li>Built a web app with SolidJS to provide clear and easy-to-find instructor
-                                abbreviations for the Computer Engineering Department. This project solved a common
-                                problem for
-                                students while giving me experience with a fast and modern frontend framework.</li>
-                        </ul>
+                <!-- <div class="job">
+                    <div class="row header-row">
+                        <div class="company">Portfolio Web <span class="project-type">(Side Project)</span></div>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="education">
-            <hr>
-            <h2>Education</h2>
-
-            <div class="edu-item">
-                <div class="row header-row">
-                    <div class="university">Chulalongkorn University</div>
-                    <div class="duration">GPAX 3.73</div>
-                </div>
-                <div class="row sub-row">
-                    <div class="degree">Bachelor of Computer Engineering (1st Class Honours)</div>
-                    <div class="date">AUG 2021 - JUNE 2025</div>
-                </div>
-                <div class="notes">Relevant Coursework: Data Structure, Algorithm Design, Software Engineer, Database
-                    System, Data science, Software Architecture, Computer Security, OOP, etc.</div>
+                    <div class="details">
+                        <div class="project-desc">
+                            <ul>
+                                <li>Built with Next.js, TailwindCSS, Framer Motion, and Shadcn. This showcases
+                                    my skills, projects, and experiences.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
             </div>
         </section>
     </div>
