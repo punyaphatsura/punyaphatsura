@@ -182,6 +182,11 @@
             font-weight: 600;
         }
 
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
         @media print {
             .highlight-tech {
                 background-color: transparent !important;
@@ -223,7 +228,7 @@
                 </p>
             </div>
             <p class="summary">
-                Software Engineer with 1.5+ years building production-grade web applications, primarily in the <span class="highlight-tech">Next.js</span> ecosystem but proven across diverse stacks — from Vue.js and Swift to AI integrations. Always willing to adopt new technologies to best serve the project's needs.
+                Software Engineer with 1.5+ years building production-grade web applications, primarily in the <span class="highlight-tech">Next.js</span> and <span class="highlight-tech">NestJS</span> ecosystem but proven across diverse stacks — from Vue.js and Swift to AI integrations. Always willing to adopt new technologies to best serve the project's needs.
             </p>
         </header>
 
@@ -256,7 +261,7 @@
             </div>
             <div class="skills-group">
                 <div class="skill-row"><span class="label">Programming:</span> React, JavaScript, TypeScript, Next.js, NestJS, Vue.js, TailwindCSS, React Native, Swift, Python</div>
-                <div class="skill-row"><span class="label">Others:</span> Git, Jira, Postman, Firebase, MongoDB, PostgreSQL, Socket.IO, Expo</div>
+                <div class="skill-row"><span class="label">Others:</span> AWS, Terraform, Prisma, PostgreSQL, MongoDB, TanStack Query, Nx, Storybook, Git, Expo</div>
                 <div class="skill-row"><span class="label">Language:</span> Thai (Native), English (Intermediate)</div>
             </div>
         </section>
@@ -278,14 +283,11 @@
                     </div>
                     <div class="details">
                         <ul>
-                            <li>Leveraged an <span class="highlight-tech">Nx</span> monorepo with <span class="highlight-tech">Next.js</span> to implement an Anti-Corruption Layer with Zod and ViewModel transformations; established a strict server-state separation strategy using <span class="highlight-tech">TanStack Query</span> while developing internal shared packages for Design Systems and API contracts.</li>
-                            <li>Achieved instantaneous page loads for data-intensive views by architecting a dual-layer
-                                caching strategy and optimized static pages using Lighthouse as a primary performance
-                                benchmark.</li>
-                            <li>Developed a <span class="highlight-tech">Puppeteer</span>-based backend service within the same <span class="highlight-tech">Nx</span> monorepo using <span class="highlight-tech">NestJS</span> to offload
-                                complex, personalized image generation from the client, optimizing resource utilization
-                                for
-                                high-quality assets.</li>
+                            <li>Built web and mobile features in an <span class="highlight-tech">Nx</span> monorepo with <span class="highlight-tech">Next.js</span> and <span class="highlight-tech">React Native</span>/<span class="highlight-tech">Expo</span>, sharing <span class="highlight-tech">Zod</span> contracts and view-models across platforms.</li>
+                            <li>Cut dashboard LCP from 8.9s to ~0.9s by moving 11 pages to <span class="highlight-tech">TanStack Query</span> SSR prefetching and hydration.</li>
+                            <li>Built AI Career Analysis on web and mobile, and an AI job-posting wizard with streamed text, image upload and crop, and a map pin picker.</li>
+                            <li>Co-founded the shared <span class="highlight-tech">React</span> UI kit (<span class="highlight-tech">shadcn/Radix</span>, <span class="highlight-tech">Tailwind</span>, <span class="highlight-tech">Storybook</span>), building accessible date pickers and drag-and-drop lists.</li>
+                            <li>Built <span class="highlight-tech">NestJS</span> backend services, including a <span class="highlight-tech">Puppeteer</span> image generator and a WordPress replacement on <span class="highlight-tech">AWS</span> via <span class="highlight-tech">Terraform</span>.</li>
                         </ul>
                     </div>
                 </div>
