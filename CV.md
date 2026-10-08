@@ -30,8 +30,8 @@ A marketplace connecting learners, tutors and SMEs: learners train as data analy
 _July 2026 - Present_
 
 - Building an AI pharmacy-management platform for small and medium hospitals in a 3-person team, currently in pilot at a hospital.
-- Own the hospital information system integration (read-only PostgreSQL, HL7/FHIR), keeping patient data on site under PDPA.
-- Own the clinical decision-support checks (Pharma Sure) and role-based, PDPA-compliant access control.
+- Own the hospital information system integration (read-only PostgreSQL, HOSos), keeping patient data on site under PDPA.
+- Own the clinical decision-support checks (Pharma Sure) and role-based.
 - Built the usability prototype in Next.js 16, React 19 and Tailwind v4 (prescription queue, screening with override-with-reason, barcode-driven verification, forecasting and BI dashboards), covered by a Playwright suite.
 
 ### Software Engineer | Top Gun Co., Ltd.
