@@ -57,7 +57,7 @@ _June 2024 - July 2024_
 _January 2023 - November 2024_
 
 - **AZAI:** Built property management and real estate listing apps with React Native, Expo, TypeScript and TailwindCSS, including real-time chat via Socket.IO.
-- **SOpet and others:** Designed UX/UI and built web apps with Next.js, including a bank slip submission and PromptPay QR payment tool, and a chatbot website with context-aware AI responses using LangChain.
+- **SOpet and others:** Designed UX/UI and built web apps with Next.js, including a bank slip submission and PromptPay QR payment tool, and a chatbot website with context-aware AI responses using LangChain, backed by Elysia (Bun) APIs.
 
 ### Software Developer | Thailand Post: Journey to Startup Sandbox 2022 Competition
 
