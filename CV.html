@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punyaphat Surakiatkamjorn - CV</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.4;
+            color: #000;
+            margin: 0;
+            padding: 32px 16px;
+            background-color: #fff;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 794px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        header {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        h1 {
+            font-size: 26px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .title {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .contact-info {
+            font-size: 14px;
+            margin: 0;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .section-header {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        hr {
+            border: 0;
+            border-top: 2px solid #000;
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        .summary {
+            font-size: 14px;
+            text-align: justify;
+            margin: 0;
+        }
+
+        .content-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            break-inside: avoid;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 16px;
+        }
+
+        .header-row {
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .sub-row {
+            font-style: italic;
+            font-size: 14px;
+        }
+
+        .date {
+            font-weight: normal;
+            font-style: normal;
+            white-space: nowrap;
+        }
+
+        .details,
+        .notes {
+            font-size: 14px;
+        }
+
+        .intro {
+            margin: 0;
+        }
+
+        .skills-group {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .skill-row {
+            font-size: 14px;
+        }
+
+        .label {
+            font-weight: bold;
+        }
+
+        .project-type {
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        ul {
+            margin: 0 0 0 20px;
+            padding: 0;
+            list-style-type: disc;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        ul li {
+            margin: 0;
+        }
+
+        @page {
+            size: A4;
+            margin: 0.5in;
+        }
+
+        @media print {
+            body {
+                padding: 0;
+            }
+
+            .container {
+                max-width: none;
+            }
+
+            h2 {
+                break-after: avoid;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Punyaphat Surakiatkamjorn</h1>
+            <p class="title">Software Engineer</p>
+            <p class="contact-info">
+                Bangpli, Samut Prakarn |
+                <a href="mailto:punyaphat.sura@gmail.com">punyaphat.sura@gmail.com</a> |
+                <a href="tel:+66657307657">(+66) 65-730-7657</a><br>
+                <a href="https://punyaphat-portfolio.vercel.app/">punyaphat-portfolio.vercel.app</a> |
+                <a href="https://github.com/punyaphatsura">github.com/punyaphatsura</a> |
+                <a href="https://www.linkedin.com/in/punyaphat-surakiatkamjorn-91a1842a2/">linkedin.com/in/punyaphat-surakiatkamjorn</a>
+            </p>
+        </header>
+
+        <section class="summary-section">
+            <div class="section-header">
+                <hr>
+                <h2>Summary</h2>
+            </div>
+            <p class="summary">
+                Software Engineer and Co-founder &amp; CTO with 1.5+ years of professional experience building
+                production web and mobile applications, mainly with Next.js, React, TypeScript and NestJS. Experienced
+                across the stack, from frontend performance and shared design systems to database design, payments,
+                cloud infrastructure and AI features. Quick to pick up whatever stack a project needs, from Vue.js and
+                .NET to Swift and Supabase.
+            </p>
+        </section>
+
+        <section class="experience">
+            <div class="section-header">
+                <hr>
+                <h2>Experience</h2>
+            </div>
+
+            <div class="content-group">
+                <div class="item">
+                    <div class="row header-row">
+                        <div>OneMore</div>
+                        <div class="date">Apr 2026 - Present</div>
+                    </div>
+                    <div class="row sub-row">
+                        <div>Co-founder &amp; CTO</div>
+                    </div>
+                    <div class="details">
+                        <p class="intro">A marketplace connecting learners, tutors and SMEs: learners train as data
+                            analysts and deliver real projects for SME clients.</p>
+                        <ul>
+                            <li>Designed and built the platform with Next.js 16, React 19, TypeScript and Supabase,
+                                and design PostgreSQL database.</li>
+                            <li>Set up a server-only data access model: the browser never talks to the database
+                                directly, and every request goes through API routes.</li>
+                            <li>Built separate workspaces for students, tutors, businesses and admins, with admin access
+                                split into Super Admin, Operations, Finance, QA and Support.</li>
+                            <li>Integrated Stripe payments (card and PromptPay) with promo codes, escrow status for
+                                business projects, and tutor earnings and payouts.</li>
+                            <li>Built the full SME project flow: brief submission, tutor proposals, milestone tracking,
+                                and deliverable review and approval.</li>
+                            <li>Led a full marketplace-style redesign with Thai as the primary language, and improved
+                                course page performance.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="row header-row">
+                        <div>PharmaCloud</div>
+                        <div class="date">Jul 2026 - Present</div>
+                    </div>
+                    <div class="row sub-row">
+                        <div>Software &amp; Integration Engineer (Contract)</div>
+                    </div>
+                    <div class="details">
+                        <ul>
+                            <li>Building an AI pharmacy-management platform for small and medium hospitals in a
+                                3-person team, currently in pilot at a hospital.</li>
+                            <li>Own the hospital information system integration (read-only PostgreSQL, HOSos), keeping
+                                patient data on site under PDPA.</li>
+                            <li>Own the clinical decision-support checks (Pharma Sure) and role-based.</li>
+                            <li>Built the usability prototype in Next.js 16, React 19 and Tailwind v4 (prescription
+                                queue, screening with override-with-reason, barcode-driven verification, forecasting and
+                                BI dashboards), covered by a Playwright suite.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="row header-row">
+                        <div>Top Gun Co., Ltd.</div>
+                        <div class="date">Jan 2025 - Present</div>
+                    </div>
+                    <div class="row sub-row">
+                        <div>Software Engineer</div>
+                    </div>
+                    <div class="details">
+                        <ul>
+                            <li>Built web and mobile features in an Nx monorepo with Next.js and React Native/Expo,
+                                sharing Zod contracts and view-models across platforms.</li>
+                            <li>Cut recruiter dashboard LCP from 8.9s to ~0.9s with zero layout shift by moving 11
+                                data-heavy pages to TanStack Query SSR prefetching and hydration.</li>
+                            <li>Built AI features end to end on web and mobile: AI Career Analysis for job seekers, and
+                                a 4-step AI job-posting wizard with streamed generation, salary suggestion and candidate
+                                matching.</li>
+                            <li>Co-founded the shared React UI kit (shadcn/Radix, Tailwind, Storybook), including
+                                accessible date pickers and drag-and-drop lists.</li>
+                            <li>Designed a NestJS article service with Prisma, SEO structured data and Terraform-managed
+                                AWS infrastructure to replace an end-of-life WordPress site, migrating 1,476 articles
+                                without loss.</li>
+                            <li>Built and hardened a Puppeteer image generation service for personalized share cards,
+                                with job time limits, heartbeat liveness checks and bounded caching.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="row header-row">
+                        <div>Playtorium</div>
+                        <div class="date">Jun 2024 - Jul 2024</div>
+                    </div>
+                    <div class="row sub-row">
+                        <div>Software Developer (Internship)</div>
+                    </div>
+                    <div class="details">
+                        <ul>
+                            <li>Developed web applications using Vue.js and .NET, and managed CI/CD pipelines with
+                                GitLab CI.</li>
+                            <li>Implemented backend transactions and rollbacks, and optimized data management for
+                                performance in an agile team.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="row header-row">
+                        <div>Freelance</div>
+                        <div class="date">Jan 2023 - Nov 2024</div>
+                    </div>
+                    <div class="row sub-row">
+                        <div>Full-stack Developer</div>
+                    </div>
+                    <div class="details">
+                        <ul>
+                            <li><span class="label">AZAI:</span> Built property management and real estate listing apps
+                                with React Native, Expo, TypeScript and TailwindCSS, including real-time chat via
+                                Socket.IO.</li>
+                            <li><span class="label">SOpet and others:</span> Designed UX/UI and built web apps with
+                                Next.js, including a bank slip submission and PromptPay QR payment tool, and a chatbot
+                                website with context-aware AI responses using LangChain, backed by Elysia (Bun) APIs.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="row header-row">
+                        <div>Thailand Post: Journey to Startup Sandbox 2022 Competition</div>
+                        <div class="date">Jul 2022 - Oct 2022</div>
+                    </div>
+                    <div class="row sub-row">
+                        <div>Software Developer</div>
+                    </div>
+                    <div class="details">
+                        <ul>
+                            <li>Competed as a Kotlin Software Developer, focusing on exceeding customer expectations.
+                            </li>
+                            <li>Designed and developed a warehouse management application.</li>
+                            <li>Achieved 1st place in the competition.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="section-header">
+                <hr>
+                <h2>Skills</h2>
+            </div>
+            <div class="skills-group">
+                <div class="skill-row"><span class="label">Languages &amp; Frameworks:</span> TypeScript, JavaScript,
+                    React, Next.js, NestJS, React Native, Expo, Vue.js, TailwindCSS, Swift, SwiftUI, Python, Kotlin
+                </div>
+                <div class="skill-row"><span class="label">Data &amp; Backend:</span> PostgreSQL, Supabase, Prisma,
+                    MongoDB, TanStack Query, Zod, Stripe, Socket.IO, HL7/FHIR</div>
+                <div class="skill-row"><span class="label">Infrastructure &amp; Tools:</span> AWS, AWS Amplify,
+                    Terraform, Nx, Storybook, Vitest, Playwright, Puppeteer, GitHub Actions, GitLab CI, Git, Figma
+                </div>
+                <div class="skill-row"><span class="label">Languages:</span> Thai (Native), English (Intermediate)
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="section-header">
+                <hr>
+                <h2>Projects</h2>
+            </div>
+
+            <div class="content-group">
+                <div class="item">
+                    <div class="row header-row">
+                        <div>BROKE <span class="project-type">(Side Project)</span></div>
+                        <div class="date">2025</div>
+                    </div>
+                    <div class="details">
+                        <ul>
+                            <li>Built an iOS app with Swift, SwiftUI and CoreData that turns Thai bank transfer slips
+                                into structured transactions, using a Slip API with a Google Gemini fallback for
+                                reliable extraction.</li>
+                            <li>Added an analytics dashboard with Swift Charts showing category distribution, monthly
+                                trends and spending against historical averages.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="row header-row">
+                        <div>KhongKhun TTS <span class="project-type">(Senior Project)</span></div>
+                        <div class="date">2025</div>
+                    </div>
+                    <div class="details">
+                        <ul>
+                            <li>Multilingual Thai-English dubbing system using LLM translation and zero-shot TTS that
+                                preserves speaker identity. Built the internal tooling with Next.js and Python: data
+                                validators, demo sites, and a model-weight comparison platform.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="row header-row">
+                        <div>Massager WebChat <span class="project-type">(Computer Networks Final Project)</span></div>
+                        <div class="date">Mar 2024 - Apr 2024</div>
+                    </div>
+                    <div class="details">
+                        <ul>
+                            <li>Built a real-time chat app with Next.js, MongoDB and Socket.IO, with authentication,
+                                chat history, private and group chats, emoji, and typing notifications.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="row header-row">
+                        <div>Crafty <span class="project-type">(Software Engineering II Project)</span></div>
+                        <div class="date">Jan 2024 - May 2024</div>
+                    </div>
+                    <div class="details">
+                        <ul>
+                            <li>Built a marketplace for handmade crafts in a team of 6 with Next.js, TailwindCSS and
+                                MongoDB, including posts, ratings, reviews and identity verification. Worked as frontend
+                                developer and UX/UI designer.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="education">
+            <div class="section-header">
+                <hr>
+                <h2>Education</h2>
+            </div>
+
+            <div class="content-group">
+                <div class="item">
+                    <div class="row header-row">
+                        <div>Chulalongkorn University</div>
+                        <div class="date">GPAX 3.73</div>
+                    </div>
+                    <div class="row sub-row">
+                        <div>Bachelor of Computer Engineering (1st Class Honours)</div>
+                        <div class="date">Aug 2021 - Jun 2025</div>
+                    </div>
+                    <div class="notes"><span class="label">Relevant Coursework:</span> Data Structures, Algorithm
+                        Design, Computer Networks, Software Engineering, Database Systems, Data Science, Software
+                        Architecture, Computer Security, OOP</div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

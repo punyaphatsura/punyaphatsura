@@ -17,12 +17,11 @@ _April 2026 - Present_
 
 A marketplace connecting learners, tutors and SMEs: learners train as data analysts and deliver real projects for SME clients.
 
-- Designed and built nearly the entire platform (94% of 900+ commits) with Next.js 16, React 19, TypeScript and Supabase: about 95 pages, 169 API routes and a 58-table PostgreSQL database.
-- Set up a server-only data access model: the browser never talks to the database directly, and every request goes through API routes backed by row-level security.
+- Designed and built the platform with Next.js 16, React 19, TypeScript and Supabase, and design PostgreSQL database.
+- Set up a server-only data access model: the browser never talks to the database directly, and every request goes through API routes.
 - Built separate workspaces for students, tutors, businesses and admins, with admin access split into Super Admin, Operations, Finance, QA and Support.
 - Integrated Stripe payments (card and PromptPay) with promo codes, escrow status for business projects, and tutor earnings and payouts.
 - Built the full SME project flow: brief submission, tutor proposals, milestone tracking, and deliverable review and approval.
-- Set up the engineering process: 79 automated test files (Vitest, Playwright), strict TypeScript, a re-runnable database schema, and a kanban workflow with code review. Deployed on AWS Amplify.
 - Led a full marketplace-style redesign with Thai as the primary language, and improved course page performance.
 
 ### Software & Integration Engineer | PharmaCloud (Contract)
